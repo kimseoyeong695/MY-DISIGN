@@ -1,0 +1,11 @@
+{
+  "name": "chip-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive semiconductor design and fabrication learning website",
+  "scripts": {
+    "start": "node server.cjs",
+    "check": "node --check app.js && node --check library.js && node --check library-data.js && node --check assistant.js && node --check server.cjs"
+  },
+  "engines": { "node": ">=22" }
+}
